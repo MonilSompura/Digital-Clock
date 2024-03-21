@@ -4,7 +4,7 @@ from langchain.chains import ConversationChain
 from langchain import LLMChain, PromptTemplate
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 loader = TextLoader("data.csv")
 document = loader.load()
